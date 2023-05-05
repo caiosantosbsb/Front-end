@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML</title>
+    <style>
+        .flex-container {
+            display: flex;
+            align-items:center;
+        }
+
+        .flex-child1 {
+            flex: 1;
+            text-align: right;
+        }  
+
+        .flex-child2 {
+            flex: 2;
+            text-align: left;
+        }  
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="flex-container">
+
+        <div class="flex-child1">
+            <form>
+                <label for="email">Endereço de e-mail:</label><br>
+                <label for="nome">Nome:</label><br>
+                <label for="sexo">Sexo:</label><br>
+                <label for="curso">Curso:</label><br>
+                <label for="endereco">Endereço para correspodência:</label><br>
+                <label for="complemento">Complemento de endereço:</label><br>
+                <label for="cep">CEP:</label><br>
+                <label for="municipio">Município:</label>
+            </form>
+        </div>
+        
+        <div class="flex-child2">
+            <form>
+                <input type="text" id="email" name="email"><br>
+                <input type="text" id="nome" name="email"><br>  
+                <input type="text" id="sexo" name="nome"><br>    
+                <input type="text" id="curso" name="nome"><br>    
+                <input type="text" id="endereco" name="nome"><br>    
+                <input type="text" id="complemento" name="nome"><br>       
+                <input type="text" id="cep" name="nome"><br>
+                <input type="text" id="municipio" name="nome"><br>        
+            </form>
+        </div>   
+      </div>
+</body>
+</html>
